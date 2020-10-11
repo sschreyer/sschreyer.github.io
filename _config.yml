@@ -6,6 +6,8 @@ plugins:
 collections:
   authors:
     output: true
+  writing:
+    output: true
 
 defaults:
   - scope:
@@ -20,6 +22,11 @@ defaults:
       layout: "post"
   - scope:
       path: ""
+      type: writing
+    values:
+      layout: "writing"
+  - scope:
+      path: ""
     values:
       layout: "default"
-      
+  
