@@ -1,5 +1,5 @@
 .current_link {
-    color: green;
+    color:lightgreen;
 }
 
 body {
@@ -7,5 +7,13 @@ body {
 }
 
 nav {
-    border: 15px black;
+    background: grey;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: lightblue;
 }
