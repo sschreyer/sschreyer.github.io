@@ -1,0 +1,14 @@
+---
+title: Writing
+---
+<h1>Writing</h1>
+
+<ul>
+  {% for writing in site.writing %}
+    <li>
+      <h2><a href="{{ writing.url }}">{{ writing.title }}</a></h2>
+      <h3>{{ writing.type }}</h3>
+      <p>{{ writing.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
