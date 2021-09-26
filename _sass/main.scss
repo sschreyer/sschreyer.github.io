@@ -12,8 +12,14 @@ nav {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: 7px 7px 5px black;
 }
 
 nav a {
+    // link text
     color: lightblue;
+    font-size: 20px;
+    // separating links
+    padding-right: 10px;
+    padding-left:  10px;
 }
