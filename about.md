@@ -3,7 +3,7 @@ title: About
 ---
 # About page
 
-I'm Samuel Schreyer, an (unpublished) author, musician, and programmer, among other things (those are most of the things, though). I'm currently studying computer science and maths at the University of New South Wales, hoping to go on to do further study in the area of artificial intelligence. 
+I'm Samuel Schreyer, an (unpublished) author, musician, and programmer, among other things (those are most of the things, though). I'm currently studying computer science and arts at the University of New South Wales. 
 
 I have quite a few interests, and along with these interests comes a variety of projects. This website is a place to gather information about them (and me). 
 
