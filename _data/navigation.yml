@@ -4,5 +4,7 @@
   link: /about.html
 - name: Blog
   link: /blog.html
+- name: Software 
+  link: /software.html
 - name: Writing
   link: /writing.html
