@@ -1,5 +1,5 @@
 ---
-title: Game Development — So it Begins
+title: GameDevelopment
 type: GameDev
 ---
 Here is some placeholder text.
