@@ -3,16 +3,26 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: white;
 }
 
 nav {
-    background: grey;
+    background: black;
     max-width: 100%;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 7px 7px 5px black;
+    box-shadow: 7px 7px 5px grey;
+    display: flex;
+}
+
+.nav-item:hover {
+    background: white;
+}
+
+// TO-DO: Make this occur with ".nav-item:hover" as well
+nav a:hover {
+    color: black;
 }
 
 nav a {
