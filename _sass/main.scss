@@ -38,3 +38,20 @@ nav a {
     /* Centre text vertically */
     line-height: 40px;
 }
+
+#homepage_body {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: grey;
+    height: 70vh;
+}
+
+.homepage_block {
+    border: 3px blue solid;
+    padding: 20px;
+    margin: 20px;
+    height: 30%;
+    width: 30%;
+}
