@@ -56,13 +56,14 @@ nav a {
     justify-content: centre;
     align-items: centre;
     
-    flex: auto;
+    flex: 1;
     border: 1px black solid;
     border-radius: 2px;
+    padding: 0px 15px;
     margin: 20px;
-    height: auto;
+    height: 30%;
 }
 
 .homepage_block:hover {
-    background-color: #eeeeee;
+    background-color: #dddddd;
 }
