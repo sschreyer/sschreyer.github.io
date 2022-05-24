@@ -3,15 +3,13 @@
 let whoAmI = document.getElementById("whoAmI");
 
 whoAmI.onclick = () => {
-    console.log("hi");
     window.location.href="/about.html";
 };
 
 
-let whatHaveIDone = document.getElementById("whatHaveIDone");
+let whatDoing = document.getElementById("whatDoing");
 
-whatHaveIDone.onclick = () => {
-    console.log("hi");
+whatDoing.onclick = () => {
     window.location.href="/projects.html";
 };
 
@@ -19,6 +17,5 @@ whatHaveIDone.onclick = () => {
 let whatDoInFuture = document.getElementById("whatDoInFuture");
 
 whatDoInFuture.onclick = () => {
-    console.log("hi");
     window.location.href="/future.html";
 };
