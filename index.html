@@ -3,48 +3,52 @@ title: Home
 ---
 <h1>{{ "Welcome to my website!"}}</h1>
 
+
+
 <!-- this is essentially a subheading of sorts... -->
-<p>
-    Hello! I am Samuel Schreyer, and I study computer science. Welcome 
-    to my website!
-    <br>
-    <br>
-    This website is a place to catalogue the various software projects that 
-    I am working on, as well as things like novels or music that I do in 
-    my spare time. 
-</p>
+<div class="centered_flex_container">
+    <h2 id="main_page_subheading">
+        Hello! I am Samuel Schreyer, software developer, musician, writer, and more
+    </h2>
+</div>
 
-<div id="homepage_body">
+<div>
+    <p>
+        This website is a place to catalogue the various software projects that 
+        I am working on, as well as things like novels or music that I do in my 
+        spare time.
+    </p>
+    <div id="homepage_body">
+        <div id="whoAmI" class="homepage_block">
+            <h3>
+                Who am I?
+            </h3>
+            
+            <p>
+                A software/game developer, musician, and more! 
+            </p>
+        </div>
 
-    <div id="whoAmI" class="homepage_block">
-        <h3>
-            Who am I?
-        </h3>
-        
-        <p>
-            A software/game developer, musician, and more! 
-        </p>
-    </div>
+        <div id="whatDoing" class="homepage_block">
+            <h3>
+                What am I working on?
+            </h3>
+            
+            <p>
+                Click here to find out!
+            </p>
+        </div>
 
-    <div id="whatDoing" class="homepage_block">
-        <h3>
-            What am I working on?
-        </h3>
-        
-        <p>
-            Click here to find out!
-        </p>
-    </div>
-
-    <div id="whatDoInFuture" class="homepage_block">
-        <h3>
-            What do I plan to do in the future?
-        </h3>
-        
-        <p>
-            An interesting question! 
-        </p>
-    </div>
-</div> 
+        <div id="whatDoInFuture" class="homepage_block">
+            <h3>
+                What do I plan to do in the future?
+            </h3>
+            
+            <p>
+                An interesting question! 
+            </p>
+        </div>
+    </div> 
+</div>
 
 <script src="/script.js"></script>
